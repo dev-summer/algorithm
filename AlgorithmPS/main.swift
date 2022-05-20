@@ -1,41 +1,37 @@
-// 2022 KAKAO 신고 결과 받기
+// 프로그래머스 코딩테스트 연습 해시 위장
 
 import Foundation
 
-func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
-    var reportSet: Set<String> = Set<String>()
-    for str in report {
-        reportSet.insert(str)
+func solution(_ clothes: [[String]]) -> Int {
+    var person = [String: [String]]()
+    
+    var partSet = Set<String>()
+    
+    for i in 0..<clothes.count {
+        partSet.insert(clothes[i][1])
     }
     
-    var idIndex = [String: Int]()
-    for i in 0..<id_list.count {
-        idIndex[id_list[i]] = i
-    }
-    
-    var mails = Array(repeating: 0, count: id_list.count)
-    var dict = [String: [String]]()
-    
-    for str in reportSet {
-        let splitName = str.components(separatedBy: " ")
-        let reportedID = splitName[1]
-        let reporterID = splitName[0]
-        if(dict[reportedID] == nil) {
-            dict.updateValue([reporterID], forKey: reportedID)
-        } else {
-            dict[reportedID]?.append(reporterID)
-        }
-    }
- 
-    for id in dict.keys {
-        if(dict[id]!.count >= k) {
-            for i in dict[id]! {
-                mails[idIndex[i]!] += 1
+    let partArray = Array(partSet)
+
+    for arr in clothes {
+        for i in 0..<partArray.count {
+            if(arr[1] == partArray[i]) {
+                if(person[partArray[i]] == nil) {
+                    person.updateValue([arr[0]], forKey: partArray[i])
+                } else {
+                    person[partArray[i]]?.append(arr[0])
+                }
             }
         }
     }
-
-    return mails
+    
+    var combination: Int = 1
+    
+    for piece in person.keys {
+        if(person[piece]!.count >= 1) {
+            combination = combination * (person[piece]!.count + 1)
+        }
+    }
+    
+    return combination - 1
 }
-
-solution(["muzi", "frodo", "apeach", "neo"], ["muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"], 2)

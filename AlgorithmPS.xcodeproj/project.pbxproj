@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69053B912836974600EB3B58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69053B902836974600EB3B58 /* main.swift */; };
+		69053B9A283749D900EB3B58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69053B99283749D900EB3B58 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		69053B8D2836974600EB3B58 /* AlgorithmPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmPS; sourceTree = BUILT_PRODUCTS_DIR; };
-		69053B902836974600EB3B58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		69053B902836974600EB3B58 /* Programmers92334.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers92334.swift; sourceTree = "<group>"; };
+		69053B98283749D900EB3B58 /* AlgorithmPS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmPS-Bridging-Header.h"; sourceTree = "<group>"; };
+		69053B99283749D900EB3B58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = AlgorithmPS/main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +43,10 @@
 		69053B842836974600EB3B58 = {
 			isa = PBXGroup;
 			children = (
+				69053B99283749D900EB3B58 /* main.swift */,
 				69053B8F2836974600EB3B58 /* AlgorithmPS */,
 				69053B8E2836974600EB3B58 /* Products */,
+				69053B98283749D900EB3B58 /* AlgorithmPS-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +61,7 @@
 		69053B8F2836974600EB3B58 /* AlgorithmPS */ = {
 			isa = PBXGroup;
 			children = (
-				69053B902836974600EB3B58 /* main.swift */,
+				69053B902836974600EB3B58 /* Programmers92334.swift */,
 			);
 			path = AlgorithmPS;
 			sourceTree = "<group>";
@@ -94,6 +98,7 @@
 				TargetAttributes = {
 					69053B8C2836974600EB3B58 = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -120,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69053B912836974600EB3B58 /* main.swift in Sources */,
+				69053B9A283749D900EB3B58 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,8 +248,16 @@
 		69053B952836974600EB3B58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmPS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -252,8 +265,15 @@
 		69053B962836974600EB3B58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmPS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
