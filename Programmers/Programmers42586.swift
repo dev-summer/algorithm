@@ -54,8 +54,5 @@ func solution(_ progresses: [Int], _ speeds: [Int]) -> [Int] {
         release = 0
     } while !workingArr.isEmpty
        
-    print(releaseArr)
     return releaseArr
 }
-
-solution([93,30,55],[1,30,5])
