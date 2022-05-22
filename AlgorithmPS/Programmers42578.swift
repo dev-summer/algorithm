@@ -1,4 +1,4 @@
-// 프로그래머스 코딩테스트 연습 해시 위장
+// 프로그래머스 42578 코딩테스트 연습 해시 위장
 
 import Foundation
 
@@ -16,11 +16,11 @@ func solution(_ clothes: [[String]]) -> Int {
     for arr in clothes {
         for i in 0..<partArray.count {
             if(arr[1] == partArray[i]) {
-                if(person[partArray[i]] == nil) {
-                    person.updateValue([arr[0]], forKey: partArray[i])
-                } else {
-                    person[partArray[i]]?.append(arr[0])
-                }
+//                if(person[partArray[i]] == nil) {
+//                    person.updateValue([arr[0]], forKey: partArray[i])
+//                } else {
+                    person[partArray[i], default: []].append(arr[0])
+//                }
             }
         }
     }
@@ -33,5 +33,6 @@ func solution(_ clothes: [[String]]) -> Int {
         }
     }
     
+    print(combination - 1)
     return combination - 1
 }
