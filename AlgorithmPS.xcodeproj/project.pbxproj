@@ -10,6 +10,8 @@
 		69053BA2283A106500EB3B58 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 69053BA1283A106500EB3B58 /* Collections */; };
 		69053BA4283A106500EB3B58 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 69053BA3283A106500EB3B58 /* DequeModule */; };
 		69053BA6283A106500EB3B58 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 69053BA5283A106500EB3B58 /* OrderedCollections */; };
+		69053BA8283B490500EB3B58 /* BOJ1927.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69053BA7283B490500EB3B58 /* BOJ1927.swift */; };
+		69053BAB283D099100EB3B58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69053BAA283D099100EB3B58 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		69053B99283749D900EB3B58 /* Programmers42578.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers42578.swift; sourceTree = "<group>"; };
 		69053B9B283764B200EB3B58 /* Programmers42586.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers42586.swift; sourceTree = "<group>"; };
 		69053B9E2839E0BF00EB3B58 /* Programmers42587.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers42587.swift; sourceTree = "<group>"; };
+		69053BA7283B490500EB3B58 /* BOJ1927.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1927.swift; sourceTree = "<group>"; };
+		69053BAA283D099100EB3B58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,8 @@
 		69053B842836974600EB3B58 = {
 			isa = PBXGroup;
 			children = (
-				69053B9E2839E0BF00EB3B58 /* Programmers42587.swift */,
+				69053BA9283C8B8700EB3B58 /* BOJ */,
+				69053BAA283D099100EB3B58 /* main.swift */,
 				69053B8F2836974600EB3B58 /* Programmers */,
 				69053B8E2836974600EB3B58 /* Products */,
 				69053B98283749D900EB3B58 /* AlgorithmPS-Bridging-Header.h */,
@@ -71,8 +76,17 @@
 				69053B99283749D900EB3B58 /* Programmers42578.swift */,
 				69053B902836974600EB3B58 /* Programmers92334.swift */,
 				69053B9B283764B200EB3B58 /* Programmers42586.swift */,
+				69053B9E2839E0BF00EB3B58 /* Programmers42587.swift */,
 			);
 			path = Programmers;
+			sourceTree = "<group>";
+		};
+		69053BA9283C8B8700EB3B58 /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+				69053BA7283B490500EB3B58 /* BOJ1927.swift */,
+			);
+			path = BOJ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69053BAB283D099100EB3B58 /* main.swift in Sources */,
+				69053BA8283B490500EB3B58 /* BOJ1927.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

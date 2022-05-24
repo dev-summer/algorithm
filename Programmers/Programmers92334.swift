@@ -45,7 +45,7 @@ func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
     // 신고자이름 = idIndex[i] 인 id index를 받아와서
     // mail array의 해당 index에 +1
     for id in dict.keys {
-        if(dict[id, default: []].count >= k) {
+        if (dict[id, default: []].count >= k) {
             for i in dict[id]! {
                 mails[idIndex[i]!] += 1
             }

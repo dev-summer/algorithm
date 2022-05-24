@@ -16,31 +16,17 @@ func solution(_ progresses: [Int], _ speeds: [Int]) -> [Int] {
     // workingArr의 0번째 인덱스의 값 >= 100이 될 때까지 작업율을 더해주는 싸이클을 반복한 후,
     // workingArr의 0번째 인덱스의 값 >= 100 이면
     // workingArr의 0번째 인덱스의 값과 speedsCopy의 0번째 인덱스의 값을 빼주는 연산을 반복
-    repeat {
+    while !workingArr.isEmpty {
         for i in 0..<workingArr.count {
             workingArr[i] += speedsCopy[i]
         }
-        
-        // repeat-while의 경우 repeat의 연산을 먼저 수행한 후 while의 조건을 확인하기 때문에
-        // workingArr의 마지막 원소를 제거할 때
-        // repeat의 연산을 수행한 후 workingArr = nil이 되어
-        // while의 조건을 확인할 수 없게 된다
-        // 따라서 workingArr = nil 이면 break 하도록 해야 함
-//        repeat {
-//            if(workingArr[0] >= 100) {
-//                workingArr.removeFirst()
-//                speedsCopy.removeFirst()
-//                release += 1
-//                if workingArr.isEmpty { break }
-//            }
-//        } while workingArr[0] >= 100
         
         // while로 반복하는 경우에도
         // workingArr의 모든 원소가 제거된 이후 workingArr = nil이 되어
         // while의 조건을 확인할 수 없게 된다
         // 따라서 workingArr = nil 이면 break 하도록 해야 함
         while workingArr[0] >= 100 {
-            if(workingArr[0] >= 100) {
+            if (workingArr[0] >= 100) {
                 workingArr.removeFirst()
                 speedsCopy.removeFirst()
                 release += 1
@@ -48,11 +34,11 @@ func solution(_ progresses: [Int], _ speeds: [Int]) -> [Int] {
             if workingArr.isEmpty { break }
         }
 
-        if(release > 0 ) {
+        if (release > 0 ) {
             releaseArr.append(release)
         }
         release = 0
-    } while !workingArr.isEmpty
+    }
        
     return releaseArr
 }

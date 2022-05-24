@@ -15,7 +15,7 @@ func solution(_ clothes: [[String]]) -> Int {
 
     for arr in clothes {
         for i in 0..<partArray.count {
-            if(arr[1] == partArray[i]) {
+            if (arr[1] == partArray[i]) {
 //                if(person[partArray[i]] == nil) {
 //                    person.updateValue([arr[0]], forKey: partArray[i])
 //                } else {
@@ -28,7 +28,7 @@ func solution(_ clothes: [[String]]) -> Int {
     var combination: Int = 1
     
     for piece in person.keys {
-        if(person[piece]!.count >= 1) {
+        if (person[piece]!.count >= 1) {
             combination = combination * (person[piece]!.count + 1)
         }
     }
