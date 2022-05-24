@@ -5,6 +5,8 @@ import Foundation
 struct minHeap<T: Comparable> {
     var heap: Array<T> = []
     
+    // heap의 원소 개수를 확인하는 메서드 구현
+    
     mutating func push(_ data: T) {
         // 1번 인덱스부터 사용하기 위해 0번 인덱스에는 임시로 1번 인덱스의 값을 채워줌
         if heap.count == 0 {
@@ -29,7 +31,7 @@ struct minHeap<T: Comparable> {
             // child 노드의 값이 parent 노드의 값보다 작은 경우 true
             return heap[child] < heap[parent] ? true : false
         }
-        
+
         // child 노드의 값이 parent 노드의 값보다 작을 경우
         while heapify(child) {
             let parent = child / 2
