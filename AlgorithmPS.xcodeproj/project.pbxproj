@@ -10,6 +10,7 @@
 		69053BA2283A106500EB3B58 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 69053BA1283A106500EB3B58 /* Collections */; };
 		69053BA4283A106500EB3B58 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 69053BA3283A106500EB3B58 /* DequeModule */; };
 		69053BA6283A106500EB3B58 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 69053BA5283A106500EB3B58 /* OrderedCollections */; };
+		69053BB0283D38D900EB3B58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69053BAF283D38CD00EB3B58 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +34,7 @@
 		69053B9E2839E0BF00EB3B58 /* Programmers42587.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers42587.swift; sourceTree = "<group>"; };
 		69053BA7283B490500EB3B58 /* BOJ1927.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1927.swift; sourceTree = "<group>"; };
 		69053BAA283D099100EB3B58 /* BOJ11279.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ11279.swift; sourceTree = "<group>"; };
-		69053BAD283D32FF00EB3B58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		69053BAF283D38CD00EB3B58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +54,7 @@
 		69053B842836974600EB3B58 = {
 			isa = PBXGroup;
 			children = (
-				69053BAD283D32FF00EB3B58 /* main.swift */,
+				69053BAF283D38CD00EB3B58 /* main.swift */,
 				69053BA9283C8B8700EB3B58 /* BOJ */,
 				69053B8F2836974600EB3B58 /* Programmers */,
 				69053B8E2836974600EB3B58 /* Products */,
@@ -156,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69053BB0283D38D900EB3B58 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

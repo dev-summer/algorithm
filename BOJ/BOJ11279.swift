@@ -1,6 +1,5 @@
 // BOJ 11279 최대 힙
 import Foundation
-import AppKit
 
 struct Heap<T: Comparable> {
     var arr = Array<T>()
@@ -54,17 +53,17 @@ struct Heap<T: Comparable> {
             let left = parent * 2
             let right = parent * 2 + 1
             var target = parent
-            
+
             if left < arr.count && arr[left] > arr[target] {
                 target = left
             }
-            
+
             if right < arr.count && arr[right] > arr[target] {
                 target = right
             }
-            
+
             if target == parent { return }
-            
+
             arr.swapAt(target, parent)
             parent = target
         }
