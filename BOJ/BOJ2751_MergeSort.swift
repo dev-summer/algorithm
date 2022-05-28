@@ -9,7 +9,6 @@ func mergeSort(_ arr: [Int]) -> [Int] {
     if arr.count < 2  { return arr }
     let mid = arr.count / 2
     
-    
     let leftArr = Array(arr[0..<mid])
     let rightArr = Array(arr[mid..<arr.count])
     
@@ -21,7 +20,7 @@ func merge(leftArr: [Int], rightArr: [Int]) -> [Int] {
     var sortedArr = [Int]()
     var left = 0
     var right = 0
-    
+    // 2
     while left < leftArr.count && right < rightArr.count {
         if leftArr[left] <= rightArr[right] {
             sortedArr.append(leftArr[left])
@@ -31,7 +30,7 @@ func merge(leftArr: [Int], rightArr: [Int]) -> [Int] {
             right += 1
         }
     }
-    
+
     sortedArr.append(contentsOf: leftArr[left..<leftArr.count])
     sortedArr.append(contentsOf: rightArr[right..<rightArr.count])
     
