@@ -4,7 +4,7 @@
 
 import Foundation
 
-var NM = readLine()!.components(separatedBy: " ").map { Int($0)! }
+fileprivate let NM = readLine()!.components(separatedBy: " ").map { Int($0)! }
 
 let N = NM[0]
 let M = NM[1]

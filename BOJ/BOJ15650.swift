@@ -5,9 +5,9 @@
 
 import Foundation
 
-let NM = readLine()!.components(separatedBy: " ").map { Int($0)! }
-let N = NM[0]
-let M = NM[1]
+fileprivate let NM = readLine()!.components(separatedBy: " ").map { Int($0)! }
+fileprivate let N = NM[0]
+fileprivate let M = NM[1]
 
 var arr = [[Int]]()
 var temp = [Int]()
