@@ -22,6 +22,7 @@ func solution(_ numbers: String) -> Int {
     }
 
     // 모든 경우의 수를 [[Int]] 형태로 만든다
+    // 더 빠른 재귀함수 형태를 찾아보기...
     func permutation(_ arr: [Int], _ r: Int, _ result: inout [[Int]], _ index: Int = 0) {
         if index == r {
             result.append(Array(arr[0..<r]))
