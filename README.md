@@ -1,6 +1,11 @@
 # algorithm PS
 
 ## 🗓 May 2022
+30 BOJ 15651 N과 M (3)</br>
+30 BOJ 15650 N과 M (2)</br>
+30 BOJ 15649 N과 M (1)</br>
+30 BOJ 11399 ATM</br>
+29 BOJ 1182 부분수열의 합</br>
 28 BOJ 2798 블랙잭</br>
 28 Programmers 42839 소수 찾기</br>
 26 BOJ 11931 수 정렬하기 4 (QuickSort, MergeSort, HeapSort)</br>
