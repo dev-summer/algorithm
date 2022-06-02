@@ -13,19 +13,21 @@ var arr = [[Int]]()
 var temp = [Int]()
 
 func recur(count: Int, index: Int) {
-    print("to append? \(temp), index: \(index)")
+//    print("to append? \(temp), index: \(index)")
     if temp.count == M {
         arr.append(temp)
-        print("arr: \(arr)")
+//        print("arr: \(arr)")
         return
     } else if temp.count > M { return }
     if index > N { return }
     
+    // append & removeLast하는 것보다
+    // 배열 크기를 잡아두고 index를 옮겨가는 방식이 낫다
     for i in index...N {
-        print("i: \(i), index: \(index)")
+//        print("i: \(i), index: \(index)")
         temp.append(i)
         recur(count: count + 1, index: i + 1)
-        print("index: \(index), temp: \(temp)")
+//        print("index: \(index), temp: \(temp)")
         temp.removeLast()
     }
 }

@@ -29,14 +29,20 @@ func dfs(_ depth: Int, _ start: Int) {
         if visited[i] == false {
             print("i: \(i), start: \(start)")
             print("visited[i]: \(visited[i]), sum: \(sum), numbers[i]: \(numbers[i])")
+            
             visited[i] = true
             sum += numbers[i]
+            
             print("sum1: \(sum)")
+            
             dfs(depth + 1, i)
+            
             print("sum2: \(sum), numbers[i]: \(numbers[i])")
             print("depth: \(depth)")
+            
             visited[i] = false
             sum -= numbers[i]
+            
             print("sum3: \(sum)")
             print("i: \(i), start: \(start)")
             print("visited[i]: \(visited[i]), numbers[i]: \(numbers[i])")

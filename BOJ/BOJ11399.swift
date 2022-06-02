@@ -6,7 +6,7 @@ fileprivate var size = Int(readLine()!)!
 fileprivate var load = readLine()!.components(separatedBy: " ").map { Int($0)! }
 
 // (사람번호, 필요시간)
-fileprivate var arr = [(Int, Int)]()
+fileprivate var arr = [(person: Int, load: Int)]()
 
 for i in 0..<load.count {
     arr.append((i, load[i]))
