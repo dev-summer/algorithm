@@ -11,6 +11,7 @@
 		69053BA4283A106500EB3B58 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 69053BA3283A106500EB3B58 /* DequeModule */; };
 		69053BA6283A106500EB3B58 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 69053BA5283A106500EB3B58 /* OrderedCollections */; };
 		69053BC5283FCD4900EB3B58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69053BC4283FCD4900EB3B58 /* main.swift */; };
+		69330C10284DF62D00E43CEE /* BOJ2606.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69330C0F284DF62D00E43CEE /* BOJ2606.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,10 @@
 		69330BE72848F1EA00E43CEE /* LeetCode62_DPonly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode62_DPonly.swift; sourceTree = "<group>"; };
 		69330BEA284907AC00E43CEE /* BOJ1149.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1149.swift; sourceTree = "<group>"; };
 		69330BEC2849096300E43CEE /* BOJ11726.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ11726.swift; sourceTree = "<group>"; };
+		69330BF12849E9F000E43CEE /* Programmers43165.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers43165.swift; sourceTree = "<group>"; };
+		69330BF3284B015200E43CEE /* Programmers43162.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers43162.swift; sourceTree = "<group>"; };
+		69330BF5284BB54000E43CEE /* BOJ1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1260.swift; sourceTree = "<group>"; };
+		69330C0F284DF62D00E43CEE /* BOJ2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ2606.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +104,8 @@
 				69053B9B283764B200EB3B58 /* Programmers42586.swift */,
 				69053B9E2839E0BF00EB3B58 /* Programmers42587.swift */,
 				69330BCA2842871F00E43CEE /* Programmers42839.swift */,
+				69330BF12849E9F000E43CEE /* Programmers43165.swift */,
+				69330BF3284B015200E43CEE /* Programmers43162.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -125,6 +132,8 @@
 				69330BE22845138100E43CEE /* BOJ15651.swift */,
 				69330BEA284907AC00E43CEE /* BOJ1149.swift */,
 				69330BEC2849096300E43CEE /* BOJ11726.swift */,
+				69330BF5284BB54000E43CEE /* BOJ1260.swift */,
+				69330C0F284DF62D00E43CEE /* BOJ2606.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -206,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69053BC5283FCD4900EB3B58 /* main.swift in Sources */,
+				69330C10284DF62D00E43CEE /* BOJ2606.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
