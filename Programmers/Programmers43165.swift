@@ -7,7 +7,7 @@ func solution(_ numbers: [Int], _ target: Int) -> Int {
     var visited = Array(repeating: false, count: numbers.count + 1)
     var sum = 0
     var count = 0
-    
+
     for i in 0..<numbers.count {
         graph[i][0] = numbers[i]
         graph[i][1] = -numbers[i]
@@ -29,6 +29,7 @@ func solution(_ numbers: [Int], _ target: Int) -> Int {
                     sum -= graph[i][j]
                 }
                 visited[i] = false
+                
             }
             
         }
