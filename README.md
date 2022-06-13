@@ -1,7 +1,14 @@
 # algorithm PS
 
 ## 🗓 June 2022
+13 Programmers 92335 k진수에서 소수 개수 구하기</br>
+12 Programmers 49189 가장 먼 노드</br>
+10 BOJ 2805 나무 자르기</br>
+10 LeetCode 658 Find K Closest Elements</br>
+10 LeetCode 240 Search a 2D Matrix II</br>
+7 BOJ 1260 BFS와 DFS</br>
 6 BOJ 2606 바이러스</br>
+6 BOJ 15652 N과 M(4)</br>
 4 Programmers 43162 네트워크</br>
 3 Programmers 43165 타겟 넘버</br>
 2 BOJ 11726 2xn 타일링</br>
