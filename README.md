@@ -1,6 +1,9 @@
 # algorithm PS
 
 ## 🗓 June 2022
+6 BOJ 2606 바이러스</br>
+4 Programmers 43162 네트워크</br>
+3 Programmers 43165 타겟 넘버</br>
 2 BOJ 11726 2xn 타일링</br>
 2 BOJ 1149 RGB거리</br>
 2 LeetCode 62 Unique Paths</br>
