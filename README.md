@@ -1,6 +1,8 @@
 # algorithm PS
 
 ## 🗓 June 2022
+15 Programmers 92342 양궁대회</br>
+14 Programmers 92341 주차 요금 계산</br>
 13 Programmers 92335 k진수에서 소수 개수 구하기</br>
 12 Programmers 49189 가장 먼 노드</br>
 10 BOJ 2805 나무 자르기</br>
