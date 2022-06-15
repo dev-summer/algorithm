@@ -1,6 +1,7 @@
 # algorithm PS
 
 ## 🗓 June 2022
+15 BOJ 10815 숫자 카드</br>
 15 Programmers 92342 양궁대회</br>
 14 Programmers 92341 주차 요금 계산</br>
 13 Programmers 92335 k진수에서 소수 개수 구하기</br>
