@@ -28,7 +28,6 @@ func solution(_ n: Int, _ info: [Int]) -> [Int] {
     var maxGap = 0
     var maxWin = [[Int]]()
     
-    
     func recur(index: Int, arrows: Int) {
         print("index: \(index), ryan: \(ryan)")
         if index == 10 || arrows == 0 {

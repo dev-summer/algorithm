@@ -66,6 +66,9 @@
 		69330C192852498700E43CEE /* BOJ2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ2805.swift; sourceTree = "<group>"; };
 		69330C2828557B7B00E43CEE /* Programmers49189.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers49189.swift; sourceTree = "<group>"; };
 		69330C2A28579D4600E43CEE /* Programmers92335.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers92335.swift; sourceTree = "<group>"; };
+		69330C2C2858BC3200E43CEE /* Programmers92341.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers92341.swift; sourceTree = "<group>"; };
+		69FB765E2859B4C0002351FD /* Programmers92342_unsol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers92342_unsol.swift; sourceTree = "<group>"; };
+		69FB765F2859CDBB002351FD /* Programmers92342.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers92342.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,9 @@
 				69330BF3284B015200E43CEE /* Programmers43162.swift */,
 				69330C2828557B7B00E43CEE /* Programmers49189.swift */,
 				69330C2A28579D4600E43CEE /* Programmers92335.swift */,
+				69330C2C2858BC3200E43CEE /* Programmers92341.swift */,
+				69FB765E2859B4C0002351FD /* Programmers92342_unsol.swift */,
+				69FB765F2859CDBB002351FD /* Programmers92342.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
