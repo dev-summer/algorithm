@@ -1,6 +1,7 @@
 # algorithm PS
 
 ## 🗓 June 2022
+18 Programmers 87377 교점에 별 만들기</br> 
 15 BOJ 10815 숫자 카드</br>
 15 Programmers 92342 양궁대회</br>
 14 Programmers 92341 주차 요금 계산</br>
