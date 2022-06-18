@@ -23,7 +23,7 @@ func solution(_ n: Int, _ k: Int) -> Int {
     var primes = 0
     
     for i in 0..<numbers.count {
-        if prime(numbers[i]) { primes += 1}
+        if prime(numbers[i]) { primes += 1 }
     }
     
     return primes
