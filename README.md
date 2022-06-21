@@ -1,6 +1,10 @@
 # algorithm PS
 
 ## 🗓 June 2022
+21 Programmers 68645 삼각 달팽이</br>
+21 Programmers 70128 내적</br>
+21 Programmers 68935 3진법 뒤집기</br>
+21 Programmers 68644 두 개 뽑아서 더하기</br>
 18 Programmers 87377 교점에 별 만들기</br> 
 15 BOJ 10815 숫자 카드</br>
 15 Programmers 92342 양궁대회</br>
