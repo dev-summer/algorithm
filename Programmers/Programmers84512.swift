@@ -15,14 +15,17 @@ func solution(_ word: String) -> Int {
             temp = ""
             return
         }
+        // e
         for i in vowels {
-            print(i)
+//            print(i)
             temp.append(i)
-            print("str: \(temp)")
+//            print("str: \(temp)")
             if !dict.contains(temp) && temp.count <= 5 {
                 dict.append(temp)
                 makeWord(str: temp)
             }
+            // aaaaa
+            // aaaa
             temp.removeLast()
         }
     }

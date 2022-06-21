@@ -41,6 +41,7 @@ func solution(_ line: [[Int]]) -> [String] {
     let width = right - left
     let height = top - bottom
     
+    // 2 1 0 -1 -2
     // 0을 포함하므로 가로/세로 길이에 +1 해야 한다
     var graph = Array(repeating: Array(repeating: ".", count: width + 1), count: height + 1)
         
@@ -54,6 +55,7 @@ func solution(_ line: [[Int]]) -> [String] {
         graph[row][column] = "*"
     }
     
+    // [[".", "*", ], []]
     print(graph)
 
     // graph의 각 원소 배열을 joined해서 하나의 원소가 되는 배열 만듦
