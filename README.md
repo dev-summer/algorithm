@@ -1,6 +1,8 @@
 # algorithm PS
 
 ## 🗓 June 2022
+22 Programmers 70129 이진 변환 반복하기</br>
+22 Programmers 68936 쿼드압축 후 개수 세기</br>
 21 Programmers 68645 삼각 달팽이</br>
 21 Programmers 70128 내적</br>
 21 Programmers 68935 3진법 뒤집기</br>
