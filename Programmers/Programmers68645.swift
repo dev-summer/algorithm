@@ -13,6 +13,12 @@ func solution(_ n:Int) -> [Int] {
     var down = 1
     for idx in 1...n {
         if idx % 3 == 1 {
+            // n = 4, idx = 1
+            // 4 - (1 - 1) = 4
+            // 1+ 0, 1 + 1 ,... 1+3
+            // idx = 한줄로 붙인 횟수?
+            // 1 4 7. ..
+            // 0 2 4 ...
             appendDown(&triangle, down, n - (idx - 1), (idx / 3) * 2)
             down += (n - 3 * (idx / 3)) + (n - 3 * (idx / 3) - 1) + (n - 3 * (idx / 3) - 2)
         }
