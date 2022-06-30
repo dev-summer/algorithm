@@ -1,3 +1,5 @@
+// Programmers 67256 키패드 누르기
+
 import Foundation
 
 func solution(_ numbers:[Int], _ hand:String) -> String {
@@ -46,8 +48,6 @@ func solution(_ numbers:[Int], _ hand:String) -> String {
             
             let leftDist = abs(left.row - cur.row) + abs(left.col - cur.col)
             let rightDist = abs(right.row - cur.row) + abs(right.col - cur.col)
-            print("num: \(num), dist:", leftDist, rightDist)
-            print(left, right)
             if leftDist < rightDist {
                 left.row = cur.row
                 left.col = cur.col
@@ -71,5 +71,3 @@ func solution(_ numbers:[Int], _ hand:String) -> String {
     }
     return result
 }
-
-print(solution([1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5], "right"))

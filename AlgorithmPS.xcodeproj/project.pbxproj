@@ -81,6 +81,7 @@
 		69CFC1AB286D705200661E73 /* Programmers64065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers64065.swift; sourceTree = "<group>"; };
 		69CFC1AC286DAD5500661E73 /* Programmers17680.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers17680.swift; sourceTree = "<group>"; };
 		69CFC1AD286DE06300661E73 /* Programmers72410.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers72410.swift; sourceTree = "<group>"; };
+		69CFC1AE286DE9D400661E73 /* Programmers67256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers67256.swift; sourceTree = "<group>"; };
 		69F99065285E111000EC20E0 /* Programmers87377.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers87377.swift; sourceTree = "<group>"; };
 		69F99066285F02CD00EC20E0 /* Programmers87946.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers87946.swift; sourceTree = "<group>"; };
 		69F99067285F0DAA00EC20E0 /* Programmers84512.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers84512.swift; sourceTree = "<group>"; };
@@ -151,6 +152,7 @@
 				69CFC1AB286D705200661E73 /* Programmers64065.swift */,
 				69CFC1AC286DAD5500661E73 /* Programmers17680.swift */,
 				69CFC1AD286DE06300661E73 /* Programmers72410.swift */,
+				69CFC1AE286DE9D400661E73 /* Programmers67256.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
