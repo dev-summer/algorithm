@@ -1,3 +1,4 @@
+// Programmers 72410 신규 아이디 추천
 
 import Foundation
 
@@ -22,12 +23,22 @@ func solution(_ new_id: String) -> String {
     if del.count <= 1 {
         dot = del
     } else {
-        for i in 0..<del.count {
+        for i in 0..<del.count - 1 {
             if del[i] == "." && del[i + 1] == "." {
                 continue
             } else {
                 dot.append(del[i])
             }
+        }
+    }
+    
+    if !dot.isEmpty && !del.isEmpty {
+        if dot.last! == "." {
+            if del.last! != "." {
+                dot.append(del.last!)
+            }
+        } else {
+            dot.append(del.last!)
         }
     }
     
@@ -74,6 +85,3 @@ func solution(_ new_id: String) -> String {
     
     return str
 }
-
-print(solution("abcdefghijklmn.p"))
-print(solution("z-+.^."))
