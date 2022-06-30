@@ -76,6 +76,10 @@
 		69CFC1A6286C2E8700661E73 /* LeetCode13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode13.swift; sourceTree = "<group>"; };
 		69CFC1A7286C2EB900661E73 /* LeetCode1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode1.swift; sourceTree = "<group>"; };
 		69CFC1A8286C3DEE00661E73 /* LeetCode53.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode53.swift; sourceTree = "<group>"; };
+		69CFC1A9286C61BE00661E73 /* LeetCode9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode9.swift; sourceTree = "<group>"; };
+		69CFC1AA286C73CC00661E73 /* Programmers81301.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers81301.swift; sourceTree = "<group>"; };
+		69CFC1AB286D705200661E73 /* Programmers64065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers64065.swift; sourceTree = "<group>"; };
+		69CFC1AC286DAD5500661E73 /* Programmers17680.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers17680.swift; sourceTree = "<group>"; };
 		69F99065285E111000EC20E0 /* Programmers87377.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers87377.swift; sourceTree = "<group>"; };
 		69F99066285F02CD00EC20E0 /* Programmers87946.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers87946.swift; sourceTree = "<group>"; };
 		69F99067285F0DAA00EC20E0 /* Programmers84512.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers84512.swift; sourceTree = "<group>"; };
@@ -142,6 +146,9 @@
 				69A18FBC2862247700BB118E /* Programmers68644.swift */,
 				69A18FBD28630E7000BB118E /* Programmers68936.swift */,
 				69A18FBE286329D300BB118E /* Programmers70129.swift */,
+				69CFC1AA286C73CC00661E73 /* Programmers81301.swift */,
+				69CFC1AB286D705200661E73 /* Programmers64065.swift */,
+				69CFC1AC286DAD5500661E73 /* Programmers17680.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -188,6 +195,7 @@
 				69CFC1A6286C2E8700661E73 /* LeetCode13.swift */,
 				69CFC1A7286C2EB900661E73 /* LeetCode1.swift */,
 				69CFC1A8286C3DEE00661E73 /* LeetCode53.swift */,
+				69CFC1A9286C61BE00661E73 /* LeetCode9.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
