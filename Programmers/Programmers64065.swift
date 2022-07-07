@@ -35,6 +35,7 @@ func solution(_ s:String) -> [Int] {
     print(sets)
 
     dict.sort { $0.elements < $1.elements }
+    // }}
     dict.removeFirst()
 
     var result = [Int]()
