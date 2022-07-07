@@ -1,6 +1,8 @@
 # algorithm PS
 
 ## 🗓 July 2022
+7 이코테 그리디 숫자 카드 게임</br>
+7 이코테 그리디 큰 수의 법칙</br>
 2 Programmers 64065 튜플</br>
 1 Programmers 42889 실패율</br>
 1 Programmers 67256 키패드 누르기</br> 
@@ -10,6 +12,10 @@
 30 Programmers 72410 신규 아이디 추천 </br>
 30 Programmers 17680 캐시 </br>
 29 Programmers 81301 숫자 문자열과 영단어</br>
+29 LeetCode 9 Palindrome Number</br>
+29 LeetCode 53 Maximum Subarray</br>
+29 LeetCode 13 Roman to Integer</br>
+29 LeetCode 1 Two SUm </br>
 25 Programmers 68645 삼각 달팽이</br>
 22 Programmers 70129 이진 변환 반복하기</br>
 22 Programmers 68936 쿼드압축 후 개수 세기</br>
