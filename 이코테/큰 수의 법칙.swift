@@ -28,6 +28,7 @@ func getMax() {
         }
     }
 }
+// sorted()는 시간복잡도가 nlogn이라서 sorted()를 활용하면 더 빠르다
 
 func cal() -> Int {
     var added = 0

@@ -17,5 +17,6 @@ for i in 0..<N {
     cards[i].append(contentsOf: readLine()!.split(separator: " ").map { Int($0)! })
     min[i] = cards[i].min()!
 }
+// min()의 시간복잡도는 n이라서 현재의 min값을 저장하고, 크기를 비교헤서 저장하도록 짜면 더 빠를 듯
 
 print(min.max()!)
