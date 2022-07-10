@@ -1,4 +1,4 @@
-// 이코테 시각.swift
+// 이코테 구현 시각
 
 import Foundation
 
