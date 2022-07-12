@@ -1,6 +1,10 @@
 # algorithm PS
 
 ## 🗓 July 2022
+12 BOJ 14889 스타트와 링크</br>
+12 BOJ 1978 소수 찾기</br>
+11 BOJ 9095 1, 2, 3 더하기</br>
+11 BOJ 2309 일곱 난쟁이</br>
 7 이코테 그리디 숫자 카드 게임</br>
 7 이코테 그리디 큰 수의 법칙</br>
 2 Programmers 64065 튜플</br>
@@ -15,7 +19,7 @@
 29 LeetCode 9 Palindrome Number</br>
 29 LeetCode 53 Maximum Subarray</br>
 29 LeetCode 13 Roman to Integer</br>
-29 LeetCode 1 Two SUm </br>
+29 LeetCode 1 Two Sum </br>
 25 Programmers 68645 삼각 달팽이</br>
 22 Programmers 70129 이진 변환 반복하기</br>
 22 Programmers 68936 쿼드압축 후 개수 세기</br>
