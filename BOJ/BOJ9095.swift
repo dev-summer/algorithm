@@ -20,7 +20,7 @@ func recur(_ target: Int, _ sum: Int, _ count: inout Int) {
     
     if sum >= target {
         return
-    }
+    
     
     recur(target, sum + 1, &count)
     recur(target, sum + 2, &count)
