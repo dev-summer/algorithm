@@ -20,7 +20,7 @@ func getSum(_ arr: [Int]) -> Int {
             let p1 = arr[i] - 1
             let p2 = arr[j] - 1
             sum += map[p1][p2]
-            sum += map[p2][p2]
+            // 한 행마다 같은 팀인 경우를 더해주기 때문에, [i][j], [j][i]를 결과적으로는 모두 더하게 된다
         }
     }
     
@@ -52,12 +52,17 @@ func recur(_ idx: Int) {
     
     start.append(players[idx])
     recur(idx + 1)
+    1 2 3
     start.removeLast()
+    1 2
 //    print("remove")
     link.append(players[idx])
+    1 2
+    3
 //    print("start: \(start), link: \(link)")
     recur(idx + 1)
     // start의 마지막 원소를 제거하기 전에 link를 비워야 한다
+    1 2 3
     link.removeLast()
 }
 

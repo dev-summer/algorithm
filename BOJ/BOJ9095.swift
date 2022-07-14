@@ -11,7 +11,6 @@ for _ in 0..<Int(readLine()!)! {
     targets.append(Int(readLine()!)!)
 }
 
-
 func recur(_ target: Int, _ sum: Int, _ count: inout Int) {
     if sum == target {
         count += 1
