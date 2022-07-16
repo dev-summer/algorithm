@@ -56,6 +56,9 @@
 		6923EBF9287D4ED60089BA7A /* BOJ14889.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ14889.swift; sourceTree = "<group>"; };
 		6923EC1A287EB7580089BA7A /* BOJ15655.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ15655.swift; sourceTree = "<group>"; };
 		6923EC1B288019E90089BA7A /* BOJ1748.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1748.swift; sourceTree = "<group>"; };
+		6923EC1C2881B5A80089BA7A /* BOJ1966.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1966.swift; sourceTree = "<group>"; };
+		6923EC1D28829D8B0089BA7A /* BOJ2740.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ2740.swift; sourceTree = "<group>"; };
+		6923EC1E2882AE6A0089BA7A /* LeetCode94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode94.swift; sourceTree = "<group>"; };
 		69330BC7284233B800E43CEE /* BOJ11931_HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ11931_HeapSort.swift; sourceTree = "<group>"; };
 		69330BCA2842871F00E43CEE /* Programmers42839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers42839.swift; sourceTree = "<group>"; };
 		69330BCF2843431000E43CEE /* BOJ2798.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ2798.swift; sourceTree = "<group>"; };
@@ -210,6 +213,8 @@
 				6923EBF9287D4ED60089BA7A /* BOJ14889.swift */,
 				6923EC1A287EB7580089BA7A /* BOJ15655.swift */,
 				6923EC1B288019E90089BA7A /* BOJ1748.swift */,
+				6923EC1C2881B5A80089BA7A /* BOJ1966.swift */,
+				6923EC1D28829D8B0089BA7A /* BOJ2740.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				69CFC1A7286C2EB900661E73 /* LeetCode1.swift */,
 				69CFC1A8286C3DEE00661E73 /* LeetCode53.swift */,
 				69CFC1A9286C61BE00661E73 /* LeetCode9.swift */,
+				6923EC1E2882AE6A0089BA7A /* LeetCode94.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
