@@ -1,6 +1,22 @@
 # algorithm PS
 
 ## 🗓 July 2022
+26 BOJ 10026 적록색약</br>
+26 BOJ 10819 차이를 최대로</br>
+24 BOJ 14888 N과 M(11) </br>
+23 BOJ 4963 섬의 개수 </br>
+23 BOJ 11724 연결 요소의 개수 </br>
+22 LeetCode 257 Binary Tree Paths </br>
+21 LeetCode 463 Island Perimeter </br>
+21 BOJ 1012 유기농 배추 </br>
+18 LeetCode 20 Valid Parentheses </br>
+18 BOJ 2606 바이러스 </br<
+17 LeetCode 104 Maximum Depth of Binary Tree </br>
+16 LeetCode 94 Binary Tree Inorder Traversal </br>
+16 BOJ 2740 행렬 곱셈 </br>
+15 BOJ 1966 프린터 큐 </br>
+14 BOJ 1748 수 이어쓰기 1 </br>
+13 BOJ 15655 N과 M(6) </br>
 12 BOJ 14889 스타트와 링크</br>
 12 BOJ 1978 소수 찾기</br>
 11 BOJ 9095 1, 2, 3 더하기</br>
