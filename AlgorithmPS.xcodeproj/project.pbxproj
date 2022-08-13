@@ -120,6 +120,10 @@
 		69E99568289E6C8D00983C5B /* BOJ15686.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ15686.swift; sourceTree = "<group>"; };
 		69E99569289EA47E00983C5B /* BOJ17471.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ17471.swift; sourceTree = "<group>"; };
 		69E9956A289FD9FA00983C5B /* LeetCode529.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode529.swift; sourceTree = "<group>"; };
+		69E9956B28A2A2C300983C5B /* BOJ15685.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ15685.swift; sourceTree = "<group>"; };
+		69E9956C28A3D9B000983C5B /* BOJ14503.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ14503.swift; sourceTree = "<group>"; };
+		69E9956D28A6815000983C5B /* BOJ17144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ17144.swift; sourceTree = "<group>"; };
+		69E9956E28A7D29400983C5B /* BOJ17140.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ17140.swift; sourceTree = "<group>"; };
 		69F99065285E111000EC20E0 /* Programmers87377.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers87377.swift; sourceTree = "<group>"; };
 		69F99066285F02CD00EC20E0 /* Programmers87946.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers87946.swift; sourceTree = "<group>"; };
 		69F99067285F0DAA00EC20E0 /* Programmers84512.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers84512.swift; sourceTree = "<group>"; };
@@ -247,6 +251,10 @@
 				69E99567289BED9100983C5B /* BOJ1707.swift */,
 				69E99568289E6C8D00983C5B /* BOJ15686.swift */,
 				69E99569289EA47E00983C5B /* BOJ17471.swift */,
+				69E9956B28A2A2C300983C5B /* BOJ15685.swift */,
+				69E9956C28A3D9B000983C5B /* BOJ14503.swift */,
+				69E9956D28A6815000983C5B /* BOJ17144.swift */,
+				69E9956E28A7D29400983C5B /* BOJ17140.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
