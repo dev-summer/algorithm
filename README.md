@@ -1,6 +1,23 @@
 # algorithm PS
 
+## 🗓 August 2022
+21 BOJ 2931 가스관</br>
+13 BOJ 17140 이차원 배열과 연산</br>
+12 BOJ 17144 미세먼지 안녕 </br>
+10 BOJ 14503 로봇 청소기 </br>
+9 BOJ 15685 드래곤 커브 </br>
+8 LeetCode 529 Minesweeper </br>
+7 BOJ 17471 게리맨더링 </br>
+6 BOJ 15686 치킨 배달 </br>
+5 BOJ 1707 이분 그래프 </br>
+4 BOJ 3584 가장 가까운 공통 조상 </br>
+2 LeetCode 78 Subsets </br>
+1 BOJ 1260 DFS와 BFS </br>
+
 ## 🗓 July 2022
+30 BOJ 2023 신기한 소수 </br>
+29 LeetCode 695 Max Area of Island </br>
+27 LeetCode 51 N-Queens (백트래킹 방식으로도 다시 풀어볼 것)</br>
 26 BOJ 10026 적록색약</br>
 26 BOJ 10819 차이를 최대로</br>
 24 BOJ 14888 N과 M(11) </br>
