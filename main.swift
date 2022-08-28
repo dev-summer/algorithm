@@ -1,16 +1,115 @@
-let num = 1
 
-switch num {
-case 1:
-    print("1")
-    fallthrough
-case 2:
-    print("2")
-    fallthrough
-default:
-    print("def")
-}
+//let input = readLine()!.split(separator: " ").map { Int($0)! }
+//let n = input[0]
+//let r = input[1]
+//let c = input[2]
+//
+//var size = 1
+//for _ in 1...n {
+//    size *= 2
+//}
 
+/*    v     v     v     v
+   0  1  2  3  4  5  6  7
+ 0 0  1  4  5  16 17 20 21
+ 1 2  3  6  7  18 19 22 23 2^1 -1
+ 2 8  9  12 13 24 25 28 29 2^1
+ 3 10 11 14 15 26 27 30 31 2^2 -1
+ 4 32 33 36 37 48 49 52 53 2^2
+ 5                         2^3 - 3
+ 6                         2^3 - 2
+ 7                         2^3 - 1
+ 
+ */
+
+// 사각형 기준 2^n 단위로 1 -> 2 -> 3 -> 4 사분면 순서
+//var count = 0
+//func recur(_ x: Int, _ y: Int, _ d: Int) {
+//    let max = 2 * d
+//
+//    if x > max || y > max {
+//        count += max
+//        recur(x, y, max)
+//    } else {
+//
+//    }
+//}
+//
+//recur(r, c, 1)
+//
+//var answer = 0
+//func recur(_ x: Int, _ y: Int) {
+//    print(x, y)
+//    if x == r && y == c {
+//        return
+//    }
+//
+//    answer += 1
+//    if y % 2 == 0 {
+//        recur(x, y + 1)
+//    } else {
+//        if x % 2 == 0 {
+//            recur(x + 1, y - 1)
+//        } else {
+//            // 둘 다 2^n - 1 이고, x == y 인 경우
+//            if isSquare(x).0, isSquare(y).0, x == y {
+//                recur(x - isSquare(x).1 + 1, y + 1)
+//            }
+//
+//            // 둘 다 2^n - 1 이고, x > y 인 경우 (
+//            if isSquare(x).0, isSquare(y).0, x > y {
+//                recur(x - 1, y + 1)
+//            }
+//
+//            // 둘 다 2^n - 1 이고, x < y 인 경우
+//            // (1, 3) -> (2, 0) -3 (1, 7) -> (2, 4) -3
+//            // (3, 7) -> (4, 0) -7
+//            if isSquare(x).0, isSquare(y).0, x < y {
+//                recur(x + 1, y - (2 * x + 1))
+//            }
+//
+//            // y만 2^n - 1 인 경우
+//            // (5, 1) -> (6, 2) +1 (5, 3) -> (6, 0) -3 (5, 7) -> (6, 4) -3
+//            if !isSquare(x).0, isSquare(y).0 {
+//                recur(x + 1, y - isSquare(x).1 + 1)
+//            }
+//
+//            // (3, 5)
+//            // (7, 5)
+//            if isSquare(x).0, !isSquare(y).0 {
+//                recur(x - 1, y + 1)
+//            }
+//
+//            // (5, 5)
+//            if !isSquare(x).0, !isSquare(y).0 {
+//                recur(x - 1, y + 1)
+//            }
+//        }
+//
+//    }
+//}
+//
+//func isSquare(_ num: Int) -> (Bool, Int) {
+//    var doub = 1
+//    var notDoub = 0
+//    for _ in 1...n {
+//        doub *= 2
+//        if doub - 1 == num {
+//            return (true, doub)
+//        }
+//        if doub - 1 > num {
+//            notDoub = doub / 2
+//            break
+//        }
+//    }
+//
+//    return (false, notDoub)
+//}
+//
+//recur(0, 0)
+//print(answer)
+
+//rpStr1.forEach{ print($0) }
 
 //import Foundation
 //
@@ -40,6 +139,12 @@ default:
 //            minCount = count
 //        }
 //        return
+//    }
+//
+//    if sum1 > sum2 {
+//
+//    } else {
+//
 //    }
 //
 //    var arr1Copy = arr1
