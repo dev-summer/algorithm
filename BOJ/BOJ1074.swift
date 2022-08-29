@@ -17,6 +17,8 @@ var answer = 0
 // 각 사분면의 크기 = 2^n-1 * 2^n-1
 
 // 큰 것을 쪼개 내려갈 때
+// size = 2^n (한 행의 원소의 개수)
+// size = 8, (0, 0)에서 시작했다고 하면 -> (0 + 4, 0 + 4) = (4, 4) (3,3)
 // 1사분면: (x, y)..< (x + size / 2, y + size / 2)
 // 2사분면: (x, y + size / 2) ..< (x + size / 2, y + size)
 // 4사분면: (x + size / 2, y) ..< (x + size, y + size / 2)
@@ -32,6 +34,7 @@ func down(_ size: Int, _ start: Int, _ x: Int, _ y: Int) {
         return
     }
     
+    // n = 1 , size = 2^1 = 2
     if size == 2 {
         if r == x, c == y { answer = start }
         if r == x, c == y + 1 { answer = start + 1 }
