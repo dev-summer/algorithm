@@ -51,6 +51,7 @@
 		690BE1BC28BB794000E44432 /* BOJ1780.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1780.swift; sourceTree = "<group>"; };
 		690BE1BD28BB93D400E44432 /* BOJ1074.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1074.swift; sourceTree = "<group>"; };
 		690BE1BE28BD054000E44432 /* BOJ10994.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10994.swift; sourceTree = "<group>"; };
+		690BE1CD28BE109800E44432 /* BOJ2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ2630.swift; sourceTree = "<group>"; };
 		6917946C28893DC200F0DE53 /* LeetCode463.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode463.swift; sourceTree = "<group>"; };
 		6917946F288ABCDB00F0DE53 /* LeetCode257.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode257.swift; sourceTree = "<group>"; };
 		69179470288BE04000F0DE53 /* BOJ11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ11724.swift; sourceTree = "<group>"; };
@@ -271,6 +272,7 @@
 				690BE1BC28BB794000E44432 /* BOJ1780.swift */,
 				690BE1BD28BB93D400E44432 /* BOJ1074.swift */,
 				690BE1BE28BD054000E44432 /* BOJ10994.swift */,
+				690BE1CD28BE109800E44432 /* BOJ2630.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
