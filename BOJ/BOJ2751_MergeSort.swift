@@ -37,13 +37,13 @@ func merge(leftArr: [Int], rightArr: [Int]) -> [Int] {
     return sortedArr
 }
 
-fileprivate let size = Int(readLine()!)!
-fileprivate var arr = Array(repeating: 0, count: size)
+let size = Int(readLine()!)!
+var arr = Array(repeating: 0, count: size)
 
 for i in 0..<size {
     let input = Int(readLine()!)!
     arr[i] = input
 }
 
-fileprivate let sorted = mergeSort(arr)
+let sorted = mergeSort(arr)
 sorted.forEach { print($0) }

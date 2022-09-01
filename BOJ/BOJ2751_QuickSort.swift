@@ -27,8 +27,8 @@ func quickSort(_ arr: inout [Int], _ start: Int, _ end: Int) {
     quickSort(&arr, right + 1, end)
 }
 
-fileprivate let size = Int(readLine()!)!
-fileprivate var arr = [Int]()
+let size = Int(readLine()!)!
+var arr = [Int]()
 
 for _ in 1...size {
     let input = Int(readLine()!)!

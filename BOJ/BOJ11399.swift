@@ -2,11 +2,11 @@
 
 import Foundation
 
-fileprivate var size = Int(readLine()!)!
-fileprivate var load = readLine()!.components(separatedBy: " ").map { Int($0)! }
+var size = Int(readLine()!)!
+var load = readLine()!.components(separatedBy: " ").map { Int($0)! }
 
 // (사람번호, 필요시간)
-fileprivate var arr = [(person: Int, load: Int)]()
+var arr = [(person: Int, load: Int)]()
 
 for i in 0..<load.count {
     arr.append((i, load[i]))
@@ -15,7 +15,7 @@ for i in 0..<load.count {
 arr.sort(by: { $0.1 < $1.1 } )
 
 // 총 시간의 합
-fileprivate var sum = 0
+var sum = 0
 
 for i in 0..<arr.count {
     var waited = 0

@@ -41,8 +41,8 @@ func merge<T: Comparable>(_ leftArr: [T], _ rightArr: [T]) -> [T] {
     return tempArr
 }
 
-fileprivate let size = Int(readLine()!)!
-fileprivate var someArr = Array<Int>(repeating:0, count: size)
+let size = Int(readLine()!)!
+var someArr = Array<Int>(repeating:0, count: size)
 
 var sortedArr = mergeSort(someArr)
 sortedArr.forEach{ print($0) }
