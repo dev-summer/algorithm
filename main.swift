@@ -1,4 +1,156 @@
+import Foundation
 
+
+
+
+//// 수식 최대화
+//let operators: [Character] = ["+", "-", "*"]
+//var answer: Int64 = 0
+//
+//func findFirstNumber(_ idx: Int, _ equation: String) -> (number: Int64, count: Int) {
+//    let charArr = Array(equation)
+//    var number: Int64 = 0
+//    var cnt = 0
+//    var digit: Int64 = 1
+//    for i in stride(from: idx - 1, through: 0, by: -1) {
+//        if charArr[i].isNumber {
+//            number += Int64(String(charArr[i]))! * digit
+//            cnt += 1
+//            digit *= 10
+//        } else {
+//            break
+//        }
+//    }
+//
+//    return (number, cnt)
+//}
+//
+//func findSecondNumber(_ idx: Int, _ equation: String) -> (number: Int64, count: Int) {
+//    let charArr = Array(equation)
+//    var number: Int64 = 0
+//    var cnt = 0
+//    for i in idx + 1..<charArr.count {
+//        if charArr[i].isNumber {
+//            number = number * 10 + Int64(String(charArr[i]))!
+//            cnt += 1
+//        } else {
+//            break
+//        }
+//    }
+//
+//    return (number, cnt)
+//}
+//
+//func calculate(_ first: Int64, _ second: Int64, _ op: Character) -> [Character] {
+//    var number: Int64 = 0
+//    if op == "+" {
+//        number = first + second
+//    } else if op == "-" {
+//        number = first - second
+//    } else if op == "*" {
+//        number = first * second
+//    }
+//
+//    return Array(String(number))
+//}
+//
+//func modifyStr(_ equation: String, _ op: Character, _ result: inout [Character], _ idx: inout Int) -> [Character] {
+//    let charArr = Array(equation)
+//    let curEq = String(result)
+//    print(result)
+//
+//    while idx < charArr.count {
+//        print(equation, idx, charArr[idx], op)
+//        if charArr[idx] == op {
+//            var first: Int64 = 0
+//            if result.isEmpty {
+//                first = findFirstNumber(idx, equation).number
+//            } else {
+//                print("not empty")
+//                print(curEq)
+//                first = findFirstNumber(result.count - 1, curEq).number
+//                print("first", first)
+//            }
+//            let second = findSecondNumber(idx, equation).number
+//            let calculated = calculate(first, second, charArr[idx])
+//
+//            if result.isEmpty {
+//                let rangeOne = charArr[0..<idx - findFirstNumber(idx, equation).count]
+//                print("r1", rangeOne)
+//                result.append(contentsOf: rangeOne)
+//            }
+//
+//            let rangeTwo = charArr[idx + findSecondNumber(idx, equation).count + 1..<charArr.count]
+//            result.append(contentsOf: calculated)
+//            result.append(contentsOf: rangeTwo)
+//            print("r2", rangeTwo)
+//
+//            let str = String(result)
+//            print(str)
+//            idx += 1
+//            let modifiedStr = modifyStr(equation, op, &result, &idx)
+//        } else {
+//            idx += 1
+//        }
+//
+//    }
+//
+//    return result
+//}
+//
+//var arr = [Character]()
+//var visited = [Bool](repeating: false, count: 3)
+//func prioritize(_ equation: inout String) {
+//    if arr.count == 3 {
+//        var result: [Character] = []
+//        var idx = 0
+//        let result1 = modifyStr(equation, arr[0], &result, &idx)
+////        print(1, result)
+//        idx = 0
+//        var next: String
+//        if result1.isEmpty { next = equation }
+//        else { next = String(result1) }
+//        result = []
+//        let result2 =  modifyStr(next, arr[1], &result, &idx)
+////        print(2, result2)
+//        idx = 0
+//        if result2.isEmpty { next = equation }
+//        else { next = String(result2) }
+//        result = []
+//        let result3 = modifyStr(next, arr[2], &result, &idx)
+////        print(3, result)
+//
+//        let num = Int64(String(result3))!
+//        answer = max(answer, num)
+//        return
+//    }
+//
+//    for i in 0..<3 {
+//        if visited[i] { continue }
+//        visited[i] = true
+//        arr.append(operators[i])
+//        prioritize(&equation)
+//        arr.removeLast()
+//        visited[i] = false
+//    }
+//}
+//
+//func solution(_ expression:String) -> Int64 {
+//    // charArr을 돌면서 1순위 연산자를 찾는다
+//    // 1순위 연산자 앞뒤로 가면서 숫자를 두 개 찾는다
+//    // 1순위 연산 시행
+//    // 그 다음 1순위 연산자를 찾아서 같은거 시행 -> 1순위 연산자 두개가 연속해서 나오면 어떡할거임?
+//    // 연산을 시행한 후에 스트링을 수정한다? (inout으로 받아서)
+//
+//    // operator의 순열을 만들고, 그 순열을 매개변수로 calculate에 넘김
+//    var expression = expression
+//    prioritize(&expression)
+//
+//    print(answer)
+//    return answer
+//}
+//
+//var sol = solution("50*6-3*2")
 
 //import Foundation
 //
