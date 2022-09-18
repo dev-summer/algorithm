@@ -2,6 +2,31 @@ import Foundation
 
 
 
+//
+//var nums = [Int]()
+//// index: curSum
+//var memo = [Int: [Int]]()
+//
+//func dp(_ target: Int, _ index: Int, _ curSum: Int) -> Int {
+//    if memo[index, default: []].contains(curSum) {
+//        return curSum
+//    }
+//
+//    if index < 0, curSum == target { return 1 }
+//    if index < 0 { return 0 }
+//
+//    let positive = dp(target, index - 1, curSum + nums[index])
+//    let negative = dp(target, index - 1, curSum - nums[index])
+//
+//    memo[index, default: []].append(positive)
+//    memo[index, default: []].append(negative)
+//    return positive + negative
+//}
+//
+//func findTargetSum(_ target: Int) -> Int {
+//
+//    return dp(target, nums.count - 1, 0)
+//}
 
 //// 수식 최대화
 //let operators: [Character] = ["+", "-", "*"]
