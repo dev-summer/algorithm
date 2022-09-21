@@ -1,8 +1,10 @@
-import Foundation
+var arr = [1, 2, 3]
+arr.popLast()
+arr.dropFirst()
+arr.removeFirst()
 
 
-
-//
+//import Foundation
 //var nums = [Int]()
 //// index: curSum
 //var memo = [Int: [Int]]()
