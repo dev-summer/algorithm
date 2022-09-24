@@ -121,6 +121,7 @@
 		69A18FBE286329D300BB118E /* Programmers70129.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmers70129.swift; sourceTree = "<group>"; };
 		69BB0A1528D6FFB2007C5413 /* BOJ10971.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ10971.swift; sourceTree = "<group>"; };
 		69BB0A8F28DB2C05007C5413 /* LeetCode609.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode609.swift; sourceTree = "<group>"; };
+		69BB0A9028DEFCD3007C5413 /* 2023kakao1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2023kakao1.swift; sourceTree = "<group>"; };
 		69CFC1A6286C2E8700661E73 /* LeetCode13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode13.swift; sourceTree = "<group>"; };
 		69CFC1A7286C2EB900661E73 /* LeetCode1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode1.swift; sourceTree = "<group>"; };
 		69CFC1A8286C3DEE00661E73 /* LeetCode53.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode53.swift; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		69053B842836974600EB3B58 = {
 			isa = PBXGroup;
 			children = (
+				69BB0A9028DEFCD3007C5413 /* 2023kakao1.swift */,
 				69053BC4283FCD4900EB3B58 /* main.swift */,
 				69385A612876AE7D0030D241 /* 이코테 */,
 				69330BE42848EA3C00E43CEE /* LeetCode */,

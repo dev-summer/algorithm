@@ -23,6 +23,10 @@ func recur(_ cur: Int, _ count: Int, _ sum: Int, _ start: Int) {
         return
     }
     
+    // MARK: - 꿀팁: 시간 줄이는 법
+    // answer보다 클 경우 더이상 탐색하지 않겠다
+    if cost >= answer { return }
+    
     visited[cur] = true
     for i in 0..<cities {
         if map[cur][i] == 0 || visited[i] { continue }

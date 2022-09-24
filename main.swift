@@ -1,8 +1,43 @@
-var arr = [1, 2, 3]
-arr.popLast()
-arr.dropFirst()
-arr.removeFirst()
+import Foundation
 
+var tree: [Int] = []
+var visited: [Bool] = [false]
+func makeBin(_ number: Int64) -> [Int] {
+    let bin = String(number, radix: 2)
+    var numArr: [Int] = []
+    for s in bin {
+        numArr.append(Int(String(s))!)
+    }
+
+    return numArr
+}
+
+// 만들어진 배열을 inorderTraverse 해서 parent = 0이면 실패
+func recur(_ curIdx: Int) -> Bool {
+    if curIdx - 1 < 0 || curIdx + 1 >= tree.count {
+        return true
+    }
+    
+    
+}
+
+func solution(_ numbers:[Int64]) -> [Int] {
+    for num in numbers {
+        tree = makeBin(num)
+        visited = Array(repeating: false, count: tree.count)
+        let root = tree.count / 2
+        recur(root)
+    }
+    
+    return []
+}
+
+var nums = [7, 5, 63, 111, 95]
+
+nums.forEach {
+    print(String($0, radix: 2))
+}
+// 2021.12.28
 
 //import Foundation
 //var nums = [Int]()
