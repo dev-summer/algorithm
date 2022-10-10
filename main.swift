@@ -1,42 +1,42 @@
 import Foundation
 
-var tree: [Int] = []
-var visited: [Bool] = [false]
-func makeBin(_ number: Int64) -> [Int] {
-    let bin = String(number, radix: 2)
-    var numArr: [Int] = []
-    for s in bin {
-        numArr.append(Int(String(s))!)
-    }
 
-    return numArr
-}
 
-// 만들어진 배열을 inorderTraverse 해서 parent = 0이면 실패
-func recur(_ curIdx: Int) -> Bool {
-    if curIdx - 1 < 0 || curIdx + 1 >= tree.count {
-        return true
-    }
-    
-    
-}
+//var someArr: [Int] = [3, 10, 5, 8, 7, 6, 4, 1, 2, 9]
+//
+//// 전체 트리를 Max Heap 구조로 바꾼다
+//for i in 1..<someArr.count {
+//    var c = i
+//    repeat {
+//        let root = (c - 1) / 2 // 특정 원소의 부모
+//        if(someArr[root] < someArr[c]) {
+//            someArr.swapAt(root, c)
+//        }
+//        c = root
+//    } while c != 0
+//}
+//
+//// 크기를 줄여가면서 반복적으로 힙을 구성
+//for i in stride(from: someArr.count - 1, to: -1, by: -1) {
+//    someArr.swapAt(0, i)
+//
+//    let root = 0
+//    var c = 1
+//    repeat {
+//        c = 2 * root + 1 // 루트의 자식
+//        // 자식 중에 더 큰 값을 찾기: 오른쪽 값이 더 크다면 c를 오른쪽으로 이동
+//        if(someArr[c] < someArr[c + 1] && c < i - 1) {
+//            c += 1
+//        }
+//        // 루트보다 자식이 더 크다면 교환
+//        if(someArr[root] < someArr[c] && c < i) {
+//            someArr.swapAt(root, c)
+//        }
+//    } while c < i
+//}
+//
+//print(someArr)
 
-func solution(_ numbers:[Int64]) -> [Int] {
-    for num in numbers {
-        tree = makeBin(num)
-        visited = Array(repeating: false, count: tree.count)
-        let root = tree.count / 2
-        recur(root)
-    }
-    
-    return []
-}
-
-var nums = [7, 5, 63, 111, 95]
-
-nums.forEach {
-    print(String($0, radix: 2))
-}
 // 2021.12.28
 
 //import Foundation
