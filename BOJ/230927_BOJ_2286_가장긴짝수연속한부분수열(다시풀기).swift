@@ -10,10 +10,6 @@ let n = input[0] // 수열의 길이
 let k = input[1] // 삭제할 수 있는 개수
 let numbers = readLine()!.split(separator: " ").compactMap { Int(String($0))! }
 
-// 맨 앞에서부터 홀수를 k개 삭제
-// 삭제 후 짝수를 세어나간다.
-// 짝수를 세기 시작하는 지점: 지웠던 홀수를 되살린 index 바로 다음 짝수부터
-
 func solution() -> Int {
     var start: Int = 0
     var end: Int = 0
